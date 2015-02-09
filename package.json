@@ -1,0 +1,19 @@
+{
+  "name": "cypher",
+  "version": "0.0.1",
+  "description": "neo4j client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "neo4j",
+    "cypher",
+    "promise"
+  ],
+  "author": "zf",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.53.0"
+  }
+}
