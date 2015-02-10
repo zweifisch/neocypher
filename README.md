@@ -1,17 +1,12 @@
-# cypher
+# neocypher
 
-```javascript
-var cypher = require("cypher")("http://localhost:7474");
+```coffeescript
+cypher = require("neocypher") "http://localhost:7474"
 
-cypher("match (n:User) return n").then(function(result) {
-}).catch(function(error) {
-});
-```
-
-multiple
-
-```javascript
-cypher(["", ""]).then(function(results) {
-}).catch(function(error) {
-});
+cypher "match (n) return n"
+.then ([{data, columns}])->
+    console.log columns
+    console.log data.map (x)-> x.row
+.catch ({message})->
+    console.log message
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "cypher",
+  "name": "neocypher",
   "version": "0.0.1",
   "description": "neo4j client",
   "main": "index.js",
@@ -15,5 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "request": "^2.53.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zweifisch/neocypher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zweifisch/neocypher/issues"
+  },
+  "homepage": "https://github.com/zweifisch/neocypher"
 }
